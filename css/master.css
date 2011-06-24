@@ -1,0 +1,8 @@
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.fixed_width {
+  display: inline-block;
+  width: 6em;
+}
