@@ -10,6 +10,11 @@
     <form id="sandbox_form" accept-charset="utf-8">
       <ul>
         <li>
+          <select id="saved">
+            <option></option>
+          </select>
+        </li>
+        <li>
           <label for="code">Stuff to eval:</label><br>
           <textarea id="code" rows="12" cols="80" autofocus></textarea>
         </li>
@@ -29,7 +34,11 @@
           <label for="timer" class="fixed_width">Time elapsed:</label>
           <input type="text" id="timer" value="" readonly>
         </li>
-        <li><input type="submit" value="Run (Ctrl+Shift+R)"></li>
+        <li>
+          <input type="submit" value="Run (Ctrl+Shift+R)">
+          <input type="button" id="save_btn" value="Save (Ctrl+Shift+S)">
+          <input type="button" id="del_btn" value="Delete (Ctrl+Shift+D)">
+        </li>
       </ul>
     </form>
 
